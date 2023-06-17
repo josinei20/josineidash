@@ -2,7 +2,7 @@
 while True:
     # import from folders/theme changer
     #from app import *
-    from dash_bootstrap_templates import ThemeSwitchAIO
+    
 
     FONT_AWESOME = ["Bemol.com.br"]
     app = dash.Dash(__name__, external_stylesheets=FONT_AWESOME)
